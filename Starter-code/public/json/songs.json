@@ -1,0 +1,59 @@
+[
+  {
+    "image":"song_img/flowers.png",
+    "album":"Flowers",
+    "title":"Flowers",
+    "artist":"Miley Cyrus",
+    "time": "3:20"
+  },
+  {
+    "image":"song_img/kill-bill.png",
+    "album":"Sos",
+    "title":"Kill Bill",
+    "artist":"Sza",
+    "time": "2:32"
+  },
+  {
+    "image":"song_img/bad-habit.png",
+    "album":"Gemini Rights",
+    "title":"Bad Habit",
+    "artist":"Steve Lacy",
+    "time": "3:52"
+  },
+  {
+    "image":"song_img/talk-to-me.png",
+    "album":"Talk To me",
+    "title":"Talk To me",
+    "artist":"Mark Menday, Seb Mont",
+    "time": "2:28"
+  },
+  {
+    "image":"song_img/good-4-u.png",
+    "album":"Sour",
+    "title":"Good 4 u",
+    "artist":"Olivia Rodrigo",
+    "time": "2:58"
+  },
+  {
+    "image":"song_img/industry-baby.png",
+    "album":"Singiel",
+    "title":"INDUSTRY BABY",
+    "artist":"Lil Nas X",
+    "time": "3:32"
+  },
+  {
+    "image":"song_img/watermelon-sugar.png",
+    "album":"Fine Line",
+    "title":"Watermelon Sugar",
+    "artist":"Harry Styles",
+    "time": "2:54"
+  },
+  {
+    "image":"song_img/Always.png",
+    "album":"Fine Line",
+    "title":"Always",
+    "artist":"Isak Daniels",
+    "time": "3:33"
+  }
+
+]

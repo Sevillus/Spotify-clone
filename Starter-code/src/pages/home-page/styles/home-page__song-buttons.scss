@@ -1,0 +1,53 @@
+
+.home-page{
+  &__song-buttons{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 50px;
+    width: 207px;
+
+  }
+  &__play-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 59px;
+    height: 59px;
+    border-radius: 50%;
+    background: #65D36E;
+    img{
+      width: 37%;
+    }
+  }
+  #like{
+    width: 32px;
+    height: 32px;
+  }
+  #more-menu{
+    width: 52px;
+    height: 52px;
+  }
+
+  @media (max-width: 1000px ){
+    &__song-buttons{
+      top:-7px;
+      right: 33px;
+      width: 191px;
+    }
+    &__play-btn{
+      width: 55px;
+      height: 55px;
+    }
+    #like{
+      width: 26px;
+      height: 26px;
+    }
+    #more-menu{
+      width: 46px;
+      height: 46px;
+    }
+  }
+
+}

@@ -1,0 +1,109 @@
+
+.home-page{
+  &__songs{
+
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:16px;
+
+  }
+  &__song{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 93%;
+    height: 89px;
+    background:#18181C;
+    border-radius: 17px;
+    transition: 0.4s;
+  }
+  &__song:hover{
+   background:  #292929;
+    .home-page__song-menu-box{
+      opacity: 1 !important;
+    }
+  }
+  &__song.active{
+    background: #444444;
+  }
+ &__song-info{
+   display: flex;
+   flex-direction: column;
+   gap: 2px;
+ }
+  &__song-menu-box{
+    position: relative;
+    opacity: 0;
+    display: flex;
+
+    align-items: center;
+    gap: 18px;
+    margin-right: 50px;
+    #like-btn{
+      width: 24px;
+      cursor: pointer;
+    }
+    .more-menu-btn{
+
+      cursor: pointer;
+      img{
+        width: 36px;
+        height: 36px;
+      }
+    }
+  }
+  &__more-menu{
+    position: absolute;
+    visibility: hidden;
+    top: 100px;
+    right: 0;
+    z-index: 100;
+    padding: 16px;
+    background: #292929;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    p{
+      justify-content: space-between;
+      padding: 0 16px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      width: 200px;
+      height: 50px;
+
+      img{
+        width: 12px!important;
+        height: 12px!important;
+        rotate: 180deg;
+      }
+    }
+    p:nth-child(1) ,:nth-child(5), :nth-child(7){
+      border-bottom: solid 1px #444444;
+    }
+    p:hover{
+      background:#3E3E3E ;
+    }
+  }
+
+}
+#home-page{
+  &__song-title{
+    margin-left: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+  }
+  &__song-artist{
+    position: absolute;
+    left: 565px ;
+  }
+  &__song-time{
+    position: absolute;
+    left: 979px ;
+  }
+}

@@ -1,0 +1,52 @@
+
+.home-page {
+  &__header {
+
+    z-index: -1000;
+    max-width: 1440px;
+    width: 100vw;
+    height: 434px;
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url("../../../../public/images/header-bg-img1.jpg") no-repeat center ;
+    background-size: 1442px 600px;
+    overflow:hidden ;
+  }
+  &__header-content{
+   position: relative;
+    top:156px;
+    left: 3.47vw;
+
+    p:last-child{
+      letter-spacing: 0.35px;
+      color: #BFBFBF;
+    }
+  }
+  @media (max-width: 1163px ) {
+
+    &__header {
+      width: 100vw;
+      height: 425px;
+      background-position: top -19px center;
+      background-size: 1163px 480px;
+    }
+    &__header-content{
+      top:226px;
+      left: 32px;
+    }
+  }
+
+
+  @media (max-width: 833.8px ) {
+
+    &__header {
+      width: 100vw;
+      height: 434px;
+      background-position: top -19px right -150px;
+      background-size: 1163px 490px;
+    }
+    &__header-content{
+      top:235px;
+      left: 32px;
+    }
+  }
+}
+

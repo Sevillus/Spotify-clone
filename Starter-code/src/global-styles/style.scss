@@ -1,0 +1,60 @@
+/// Main Styles File
+/// Here we import all the global Styles files we need for our project.
+
+@import "styles/normalize.scss";
+@import "styles/root.scss";
+@import "styles/fonts.scss";
+
+body {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #121212;
+  font-family: 'Lato', sans-serif;
+}
+a{
+  text-decoration: none;
+}
+h1{
+  font-size: 68px;
+  letter-spacing: -2.5px;
+  color: #ffffff;
+  margin: 24px 0;
+  font-weight: 700;
+  line-height: 68px;
+}
+h3{
+  font-weight: 400;
+  color: white;
+  font-size: 18px;
+}
+
+p {
+  margin: 0;
+  font-weight: 400;
+  line-height: 21.6px;
+  letter-spacing: 0.05px;
+  color: white;
+}
+span{
+  font-size: 12px;
+  line-height: 14.4px;
+  font-weight: 500;
+  color:#BFBFBF;
+
+}
+
+@media (max-width: 1200px ) {
+    h1{
+      font-size: 48px;
+      line-height: 48px;
+      margin: 16px 0;
+      letter-spacing: -1.8px;
+    }
+    p{
+      font-size: 16px;
+      letter-spacing: -0.5px;
+      line-height: 19.2px;
+    }
+  }
